@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CamerO Sample</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+<!-- nav bar start  -->
+    <nav id="navContainer">
+      <div class="leftNavSec">
+       <div class="logoCon"><h1 class="logo"><a href="#">CamerO</a></h1></div>
+       <div class="navLinkWrapper cateLink"><a href="#" class="navLinks dropDwn categories">Categories &#11167;</a></div>
+<!-- categories drop down content  -->
+        <div class="dropDwnContainer categoriesDD hide">
+          <div class="sec sec1">
+            <a class="ddSubTitle catSubTitle" href="#">lorem Title 1</a>
+            <a class="ddSubTitle catSubTitle" href="#">lorem Title 2</a>
+            <a class="ddSubTitle catSubTitle" href="#">lorem Title 3</a>
+            <a class="ddSubTitle catSubTitle" href="#">lorem Title 4</a>
+            <a class="ddSubTitle catSubTitle" href="#">lorem Title 5</a>
+            <a class="ddSubTitle catSubTitle" href="#">lorem Title 6</a>
+          </div>
+          <div class="sec sec2">
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+          </div>
+          <div class="sec sec3">
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a class="realTimeUpdate" href="#">lorem</a>
+            <a id="viewAll" href="#">View All &#11177;</a>
+          </div>
+        </div>
+<!-- categories drop down content end  -->
+       <div class="navLinkWrapper eventsLink"><a href="#" class="navLinks dropDwn">Events &#11167;</a></div>
+<!-- events drop down content  -->
+        <div class="dropDwnContainer eventsDD hide">
+          <a class="ddSubTitle eveSubTitle" href="#">lorem event 1</a>
+          <a class="ddSubTitle eveSubTitle" href="#">lorem event 2</a>
+        </div>
+<!-- events drop down content end          -->
+       <div class="navLinkWrapper"><a href="#" class="navLinks dropDwn">Business</a></div>
+       <div class="navLinkWrapper"><a href="#" class="navLinks dropDwn">About</a></div>
+      </div>
+      <div class="rightNavSec">
+<!-- search bar  -->
+        <div class="srchIcon">
+          <img
+            src="C:\Users\Adrian\Code Files\The complete web dev bootcamp 2021 - Colt S\Upwork_Projects\Images\magnifying glass.png"
+            alt=""
+          />
+        </div>
+        <input class="homeSrchbar" type="search" placeholder="Search..." />
+<!-- search bar end  -->
+        <button class="loginBtn">Login</button>
+      </div>
+    </nav>
+<!-- nav section end  -->
+<!-- header start  -->
+    <header id="header">
+      <div class="vidDisplayBox">
+        <img src="https://d3el26csp1xekx.cloudfront.net/miscellaneous/videos/useCaseOverlayWebthumbnail.jpg" alt="">
+        <div class="vidFilter"></div>
+        <p class="vidText">Personalized videos feat. your fav lorems</div>
+     </div>
+<!-- featured start  -->
+     <div class="layout cardLayout">
+       <div class="sectionHeader">
+         <div class="lSide">
+         <a class="subTitle" href="#">Featured</a>
+        </div>
+         <div class="rSide">
+        <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+      </div>
+        </div>
+       <div class="imagesContainer">
+         <a class="content" href="#">
+           <div class="contentImgWrapper">
+           <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+          </div>
+           <caption class="imgCaption">
+             <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+             <span class="captionSimilars imgProfession">Lorem</span>
+             <div class="captionSimilars imgDetails">
+               <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+               <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+             </div>
+           </caption>
+          </a>
+         <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+       </div>
+     </div>
+<!-- featured end  -->
+<!-- new and noteworthy  -->
+     <div class="layout cardLayout">
+      <div class="sectionHeader">
+        <div class="lSide">
+        <a class="subTitle" href="#">New and noteworthy</a>
+       </div>
+        <div class="rSide">
+       <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+     </div>
+       </div>
+      <div class="imagesContainer">
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+        </a>
+      </div>
+    </div>
+<!-- new and noteworthy ends -->
+<!-- catgories layout  -->
+    <div class="layout categoriesLayout">
+      <div class="sectionHeader">
+        <div class="lSide">
+        <a class="subTitle" href="#">Categories</a>
+       </div>
+        <div class="rSide">
+       <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+     </div>
+       </div>
+      <div class="imagesContainer">
+        <a class="content conType2" href="#">
+          <div class="contentImgWrapper change1">
+            <img class="contentImg change1_1 " src="https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80" alt="">
+          <div class="colorCover"></div>
+          <div class="change1_1 roundImgCont">
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1549556289-9706946b9c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+            <div class="imgContain roundImg roundImgBig"><img src="https://images.unsplash.com/photo-1501696088263-5696c92364bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80" alt=""></div>
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt=""></div>
+          </div>
+          <div class="change1_1 cateTitle"><p>Lorem</p></div>
+         </div>
+        </a>
+        <a class="content conType2" href="#">
+          <div class="contentImgWrapper change1">
+            <img class="contentImg change1_1" src="https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80" alt="">
+          <div class="colorCover cover2"></div>
+          <div class="change1_1 roundImgCont">
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1549556289-9706946b9c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+            <div class="imgContain roundImg roundImgBig"><img src="https://images.unsplash.com/photo-1501696088263-5696c92364bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80" alt=""></div>
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt=""></div>
+          </div>
+          <div class="change1_1 cateTitle"><p>Lorem</p></div>
+         </div>
+        </a>
+        <a class="content conType2" href="#">
+          <div class="contentImgWrapper change1">
+            <img class="contentImg change1_1" src="https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80" alt="">
+          <div class="colorCover cover3"></div>
+          <div class="change1_1 roundImgCont">
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1549556289-9706946b9c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+            <div class="imgContain roundImg roundImgBig"><img src="https://images.unsplash.com/photo-1501696088263-5696c92364bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80" alt=""></div>
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt=""></div>
+          </div>
+          <div class="change1_1 cateTitle"><p>Lorem</p></div>
+         </div>
+        </a>
+        <a class="content conType2" href="#">
+          <div class="contentImgWrapper change1">
+            <img class="contentImg change1_1" src="https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80" alt="">
+          <div class="colorCover cover4"></div>
+          <div class="change1_1 roundImgCont">
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1549556289-9706946b9c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+            <div class="imgContain roundImg roundImgBig"><img src="https://images.unsplash.com/photo-1501696088263-5696c92364bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80" alt=""></div>
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt=""></div>
+          </div>
+          <div class="change1_1 cateTitle"><p>Lorem</p></div>
+         </div>
+        </a>
+        <a class="content conType2" href="#">
+          <div class="contentImgWrapper change1">
+            <img class="contentImg change1_1" src="https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80" alt="">
+          <div class="colorCover cover5"></div>
+          <div class="change1_1 roundImgCont">
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1549556289-9706946b9c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+            <div class="imgContain roundImg roundImgBig"><img src="https://images.unsplash.com/photo-1501696088263-5696c92364bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80" alt=""></div>
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt=""></div>
+          </div>
+          <div class="change1_1 cateTitle"><p>Lorem</p></div>
+         </div>
+        </a>
+        <a class="content conType2" href="#">
+          <div class="contentImgWrapper change1">
+            <img class="contentImg change1_1" src="https://images.unsplash.com/photo-1489648022186-8f49310909a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1820&q=80" alt="">
+          <div class="colorCover cover6"></div>
+          <div class="change1_1 roundImgCont">
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1549556289-9706946b9c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+            <div class="imgContain roundImg roundImgBig"><img src="https://images.unsplash.com/photo-1501696088263-5696c92364bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80" alt=""></div>
+            <div class="imgContain roundImg"><img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80" alt=""></div>
+          </div>
+          <div class="change1_1 cateTitle"><p>Lorem</p></div>
+         </div>
+        </a>
+      </div>
+    </div>
+<!-- categories layout end  -->
+<!-- incentives postings start -->
+<div class="cardsContainer">
+  <a href="#" class="cardFeature">
+    <div class="lgCardImg"><img src="C:\Users\Adrian\Code Files\The complete web dev bootcamp 2021 - Colt S\Upwork_Projects\Images\ddf06c64-76fa-4cd5-9509-fa1434aa683f.jpg" alt=""></div>
+    <div class="cardInfo">
+      <h2>Lorem</h2>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus voluptates quis suscipit aliquid assumenda ipsum minima, nemo earum perferendis quod dolorem asperiores! Fugiat maxime et at ea, quo excepturi itaque?</p>
+    </div>
+  </a>
+  <a href="#" class="cardFeature">
+    <div class="lgCardImg"><img src="C:\Users\Adrian\Code Files\The complete web dev bootcamp 2021 - Colt S\Upwork_Projects\Images\3f73e260-07fb-42cd-817d-59d64ffd0f72.jpg" alt=""></div>
+    <div class="cardInfo">
+      <h2>Lorem</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem est maiores veritatis aut quam hic amet repudiandae itaque nulla delectus ipsum earum nam optio facilis aliquam vitae, sint reiciendis perferendis.</p>
+    </div>
+  </a>
+  <a href="#" class="cardFeature">
+    <div class="lgCardImg"><img src="C:\Users\Adrian\Code Files\The complete web dev bootcamp 2021 - Colt S\Upwork_Projects\Images\f9a3310b-0f77-417d-9b77-ee148658f59f.jpg" alt=""></div>
+    <div class="cardInfo">
+      <h2>Lorem</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vel labore quisquam iusto. Neque sunt dicta fugit pariatur quo corporis suscipit excepturi ipsam soluta, dignissimos nemo voluptatem provident iusto fuga!</p>
+    </div>
+  </a>
+</div>
+<!-- incentives postings end -->
+<!-- 1 on 1 chat start  -->
+<div class="layout cardLayout">
+  <div class="sectionHeader">
+    <div class="lSide">
+    <a class="subTitle" href="#">1:1 Live video calls</a>
+   </div>
+    <div class="rSide">
+   <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+   </div>
+  </div>
+  <div class="liveVidCallContainer">
+    <div class="liveVidCallSections">
+      <a href="#" class="liveVidCallSplit">
+        <div class="lVCSImg"><img src="https://images.unsplash.com/photo-1593059315234-fe82cafe19e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+        <div class="lVCSContent">
+            <div style="color:white;"class="topLVCS">
+              <div style="margin: 12px; line-height: 6px;">
+                <h3 style="margin-top: 23px">Lorem some title here..</h3>
+                <p style="color: rgb(124, 118, 118)">lorem ipsum</p>
+              </div>
+            </div>
+            <div class="bottomLVCS">
+              <div class="lVCSDetails">
+                <div style="margin: 12px; line-height: 7px;" class="lVCSTndV">
+                  <p style="font-size: 13px; font-weight: bold;">Dec 28 &#8226;  12:30PM PST</p>
+                  <p style="font-size: 11px; color: rgb(168, 166, 166);"><span class="lVCSTndV1">💰 $49 </span>
+                    <span class="lVCSTndV2">🕥 5 mins</span></p>
+               </div>
+              </div> 
+              <div class="lVCS"><button>Buy $0</button></div>
+            </div>
+        </div>
+      </a>
+      <a href="#" class="liveVidCallSplit">
+        <div class="lVCSImg"><img src="https://images.unsplash.com/photo-1593059315234-fe82cafe19e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+        <div class="lVCSContent">
+            <div style="color:white;"class="topLVCS">
+              <div style="margin: 12px; line-height: 6px;">
+                <h3 style="margin-top: 23px">Lorem some title here..</h3>
+                <p style="color: rgb(124, 118, 118)">lorem ipsum</p>
+              </div>
+            </div>
+            <div class="bottomLVCS">
+              <div class="lVCSDetails">
+                <div style="margin: 12px; line-height: 7px;" class="lVCSTndV">
+                  <p style="font-size: 13px; font-weight: bold;">Dec 28 &#8226;  12:30PM PST</p>
+                  <p style="font-size: 11px; color: rgb(168, 166, 166);"><span class="lVCSTndV1">💰 $49 </span>
+                    <span class="lVCSTndV2">🕥 5 mins</span></p>
+               </div>
+              </div> 
+              <div class="lVCS"><button>Buy $0</button></div>
+            </div>
+        </div>
+      </a>
+    </div>
+    <div class="liveVidCallSections">
+      <a href="#" class="liveVidCallSplit">
+        <div class="lVCSImg"><img src="https://images.unsplash.com/photo-1593059315234-fe82cafe19e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+        <div class="lVCSContent">
+            <div style="color:white;"class="topLVCS">
+              <div style="margin: 12px; line-height: 6px;">
+                <h3 style="margin-top: 23px">Lorem some title here..</h3>
+                <p style="color: rgb(124, 118, 118)">lorem ipsum</p>
+              </div>
+            </div>
+            <div class="bottomLVCS">
+              <div class="lVCSDetails">
+                <div style="margin: 12px; line-height: 7px;" class="lVCSTndV">
+                  <p style="font-size: 13px; font-weight: bold;">Dec 28 &#8226;  12:30PM PST</p>
+                  <p style="font-size: 11px; color: rgb(168, 166, 166);"><span class="lVCSTndV1">💰 $49 </span>
+                    <span class="lVCSTndV2">🕥 5 mins</span></p>
+               </div>
+              </div> 
+              <div class="lVCS"><button>Buy $0</button></div>
+            </div>
+        </div>
+      </a>
+      <a href="#" class="liveVidCallSplit">
+        <div class="lVCSImg"><img src="https://images.unsplash.com/photo-1593059315234-fe82cafe19e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+        <div class="lVCSContent">
+            <div style="color:white;"class="topLVCS">
+              <div style="margin: 12px; line-height: 6px;">
+                <h3 style="margin-top: 23px">Lorem some title here..</h3>
+                <p style="color: rgb(124, 118, 118)">lorem ipsum</p>
+              </div>
+            </div>
+            <div class="bottomLVCS">
+              <div class="lVCSDetails">
+                <div style="margin: 12px; line-height: 7px;" class="lVCSTndV">
+                  <p style="font-size: 13px; font-weight: bold;">Dec 28 &#8226;  12:30PM PST</p>
+                  <p style="font-size: 11px; color: rgb(168, 166, 166);"><span class="lVCSTndV1">💰 $49 </span>
+                    <span class="lVCSTndV2">🕥 5 mins</span></p>
+               </div>
+              </div> 
+              <div class="lVCS"><button>Buy $0</button></div>
+            </div>
+        </div>
+      </a>
+    </div>
+    <div class="liveVidCallSections">
+      <a href="#" class="liveVidCallSplit">
+        <div class="lVCSImg"><img src="https://images.unsplash.com/photo-1593059315234-fe82cafe19e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+        <div class="lVCSContent">
+            <div style="color:white;"class="topLVCS">
+              <div style="margin: 12px; line-height: 6px;">
+                <h3 style="margin-top: 23px">Lorem some title here..</h3>
+                <p style="color: rgb(124, 118, 118)">lorem ipsum</p>
+              </div>
+            </div>
+            <div class="bottomLVCS">
+              <div class="lVCSDetails">
+                <div style="margin: 12px; line-height: 7px;" class="lVCSTndV">
+                  <p style="font-size: 13px; font-weight: bold;">Dec 28 &#8226;  12:30PM PST</p>
+                  <p style="font-size: 11px; color: rgb(168, 166, 166);"><span class="lVCSTndV1">💰 $49 </span>
+                    <span class="lVCSTndV2">🕥 5 mins</span></p>
+               </div>
+              </div> 
+              <div class="lVCS"><button>Buy $0</button></div>
+            </div>
+        </div>
+      </a>
+      <a href="#" class="liveVidCallSplit">
+        <div class="lVCSImg"><img src="https://images.unsplash.com/photo-1593059315234-fe82cafe19e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt=""></div>
+        <div class="lVCSContent">
+            <div style="color:white;"class="topLVCS">
+              <div style="margin: 12px; line-height: 6px;">
+                <h3 style="margin-top: 23px">Lorem some title here..</h3>
+                <p style="color: rgb(124, 118, 118)">lorem ipsum</p>
+              </div>
+            </div>
+            <div class="bottomLVCS">
+              <div class="lVCSDetails">
+                <div style="margin: 12px; line-height: 7px;" class="lVCSTndV">
+                  <p style="font-size: 13px; font-weight: bold;">Dec 28 &#8226;  12:30PM PST</p>
+                  <p style="font-size: 11px; color: rgb(168, 166, 166);"><span class="lVCSTndV1">💰 $49 </span>
+                    <span class="lVCSTndV2">🕥 5 mins</span></p>
+               </div>
+              </div> 
+              <div class="lVCS"><button>Buy $0</button></div>
+            </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- 1 on 1 chat end -->
+<!-- trending layout  -->
+    <div class="layout cardLayout">
+      <div class="sectionHeader">
+        <div class="lSide">
+        <a class="subTitle" href="#">Trending</a>
+       </div>
+        <div class="rSide">
+       <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+     </div>
+       </div>
+      <div class="imagesContainer">
+        <a class="content" href="#">
+          <div class="contentImgWrapper">
+          <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+         </div>
+          <caption class="imgCaption">
+            <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+            <span class="captionSimilars imgProfession">Lorem</span>
+            <div class="captionSimilars imgDetails">
+              <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+              <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+            </div>
+          </caption>
+         </a>
+        <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+      </div>
+    </div>
+<!-- trending layout end  -->
+<!-- actors layout  -->
+    <div class="layout cardLayout">
+     <div class="sectionHeader">
+       <div class="lSide">
+       <a class="subTitle" href="#">Actors</a>
+      </div>
+       <div class="rSide">
+      <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+    </div>
+      </div>
+     <div class="imagesContainer">
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+       <a class="content" href="#">
+         <div class="contentImgWrapper">
+         <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+        </div>
+         <caption class="imgCaption">
+           <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+           <span class="captionSimilars imgProfession">Lorem</span>
+           <div class="captionSimilars imgDetails">
+             <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+             <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+           </div>
+         </caption>
+       </a>
+     </div>
+   </div>
+<!-- actors layout end  -->
+<!-- telenovelas layout  -->
+   <div class="layout cardLayout">
+    <div class="sectionHeader">
+      <div class="lSide">
+      <a class="subTitle" href="#">Telenovelas</a>
+     </div>
+      <div class="rSide">
+     <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+   </div>
+     </div>
+    <div class="imagesContainer">
+      <a class="content" href="#">
+        <div class="contentImgWrapper">
+        <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+       </div>
+        <caption class="imgCaption">
+          <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+          <span class="captionSimilars imgProfession">Lorem</span>
+          <div class="captionSimilars imgDetails">
+            <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+            <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+          </div>
+        </caption>
+       </a>
+      <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+    </div>
+  </div>
+<!-- telenovelas layout end  -->
+<!-- soccer layout  -->
+  <div class="layout cardLayout">
+   <div class="sectionHeader">
+     <div class="lSide">
+     <a class="subTitle" href="#">Soccer</a>
+    </div>
+     <div class="rSide">
+    <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+  </div>
+    </div>
+   <div class="imagesContainer">
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+     <a class="content" href="#">
+       <div class="contentImgWrapper">
+       <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+      </div>
+       <caption class="imgCaption">
+         <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+         <span class="captionSimilars imgProfession">Lorem</span>
+         <div class="captionSimilars imgDetails">
+           <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+           <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+         </div>
+       </caption>
+     </a>
+   </div>
+ </div>
+<!-- soccer layout end  -->
+<!-- athletes layout  -->
+ <div class="layout cardLayout">
+  <div class="sectionHeader">
+    <div class="lSide">
+    <a class="subTitle" href="#">Athletes</a>
+   </div>
+    <div class="rSide">
+   <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+ </div>
+   </div>
+  <div class="imagesContainer">
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+     </a>
+    <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+  </div>
+</div>
+<!-- athletes layout end  -->
+<!-- wrestlers layout  -->
+<div class="layout cardLayout">
+ <div class="sectionHeader">
+   <div class="lSide">
+   <a class="subTitle" href="#">Wrestlers</a>
+  </div>
+   <div class="rSide">
+  <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+</div>
+  </div>
+ <div class="imagesContainer">
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+ </div>
+</div>
+<!-- wrestlers layout end  -->
+<!-- musicians layout  -->
+<div class="layout cardLayout">
+  <div class="sectionHeader">
+    <div class="lSide">
+    <a class="subTitle" href="#">Musicians</a>
+   </div>
+    <div class="rSide">
+   <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+ </div>
+   </div>
+  <div class="imagesContainer">
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+     </a>
+    <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+  </div>
+</div>
+<!-- musicians layout end  -->
+<!-- reality layout  -->
+<div class="layout cardLayout">
+ <div class="sectionHeader">
+   <div class="lSide">
+   <a class="subTitle" href="#">Reality TV</a>
+  </div>
+   <div class="rSide">
+  <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+</div>
+  </div>
+ <div class="imagesContainer">
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+ </div>
+</div>
+<!-- reality layout end  -->
+<!-- movies layout  -->
+<div class="layout cardLayout">
+  <div class="sectionHeader">
+    <div class="lSide">
+    <a class="subTitle" href="#">Movies</a>
+   </div>
+    <div class="rSide">
+   <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+ </div>
+   </div>
+  <div class="imagesContainer">
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+     </a>
+    <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+  </div>
+</div>
+<!-- movies layout end  -->
+<!-- creators layout  -->
+<div class="layout cardLayout">
+ <div class="sectionHeader">
+   <div class="lSide">
+   <a class="subTitle" href="#">Creators</a>
+  </div>
+   <div class="rSide">
+  <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+</div>
+  </div>
+ <div class="imagesContainer">
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+   <a class="content" href="#">
+     <div class="contentImgWrapper">
+     <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+    </div>
+     <caption class="imgCaption">
+       <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+       <span class="captionSimilars imgProfession">Lorem</span>
+       <div class="captionSimilars imgDetails">
+         <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+         <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+       </div>
+     </caption>
+   </a>
+ </div>
+</div>
+<!-- creators layout end  -->
+<!-- politics layout  -->
+<div class="layout cardLayout">
+  <div class="sectionHeader">
+    <div class="lSide">
+    <a class="subTitle" href="#">Politics</a>
+   </div>
+    <div class="rSide">
+   <a class="seeAllText" href="#">See all</a><button class="arrowBtn leftArrow">&#11164;</button><button class="arrowBtn rightArrow">&#11166;</button>
+ </div>
+   </div>
+  <div class="imagesContainer">
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+    </a>
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+    </a>
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+    </a>
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+    </a>
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+    </a>
+    <a class="content" href="#">
+      <div class="contentImgWrapper">
+      <img class="contentImg" src="https://images.unsplash.com/photo-1640011654969-5cebce51da09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" alt="">
+     </div>
+      <caption class="imgCaption">
+        <div class="captionSimilars imgName"><p>Lorem Ipsum</p></div>
+        <span class="captionSimilars imgProfession">Lorem</span>
+        <div class="captionSimilars imgDetails">
+          <div class="captionSimilars pricing"><p><span>From</span> MX$0,000</p></div>
+          <div class="captionSimilars timeleft"><p><span>&#9889;</span>24hr</p></div>
+        </div>
+      </caption>
+    </a>
+  </div>
+ </div>
+<!-- politics layout end -->
+    </header>
+<!-- header end  -->
+<!-- footer start  -->
+    <footer style="color:white;" id="footer">
+      <div class="footerDetailsCont">
+        <div class="mDetails">
+          <p class="mHeading">Join our mailing list</p>
+          <p class="mSub">Be the first to know about the newest lorems and best deals on CamerO</p>
+          <div class="subsCon">
+            <input class="eSubscribe btn1" type="email" placeholder="Email address"><button class="eSubscribeBtn btn1">&#8680;</button>
+          </div>
+          <p class="privacyPolicy">Emails subject to <a href="#">privacy policy</a></p>
+        </div>
+        <div class="siteLang">
+          <p>Language</p>
+          <button class="langSelect btn1 txtFormat">US <span>English </span><span>&#11167;</span></button>
+          <div class="langStylesContainer btn1 hide">
+            <div class="langStyles" value="">US<span> English</span></div>
+            <div class="langStyles" value="">SP<span> Spanish</span></div>
+            <div class="langStyles" value="">FR<span> Francias</span></div>
+            <div class="langStyles" value="">IT<span> Italiano</span></div>
+            <div class="langStyles" value="">BR<span> Portugues</span></div>
+            <div class="langStyles" value="">DE<span> Deutsch</span></div>
+          </div>
+        </div>
+        <div class="enrollToSite colRight">
+          <div class="enrollNow colRight">
+            <p>Ready to become a talent on camerO?</p>
+            <button class="enrollBtn btn1">Enroll as talent</button>
+          </div> 
+          <div class="enrollNow colRight">
+            <p>Are you an lorem, lorem or lorem?</p>
+            <button class="enrollBtn btn1">Register as a Lorem</button>
+          </div>
+        </div>
+      
+      <div class="externalSiteLinks">
+        <div class="siteLinks">
+          <a href="#">Jobs</a>
+          <a href="#">FAQ</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Guidelines</a>
+          <a href="#">About</a>
+          <a href="#">Team</a>
+          <a href="#">Accessibility</a>
+          <a href="#">Blog</a>
+          <a href="#">Press</a>
+          <a href="#">Help</a>
+          <a href="#">For Business</a>
+          <a href="#">Gift Cards</a>
+        </div>
+        <div class="siteLinks siteSoMedia">
+          <a href="#"><div><img src="C:\Users\Adrian\Pictures\Facebook-icon.png" alt=""></div></a>
+          <a href="#"><div><img src="C:\Users\Adrian\Pictures\igram-icon.png" alt=""></div></a>
+          <a href="#"><div><img src="C:\Users\Adrian\Pictures\twitter-icon.png" alt=""></div></a>
+          <a href="#"><div><img src="C:\Users\Adrian\Pictures\email-icon.png" alt=""></div></a>
+          <a href="#"><div><img src="C:\Users\Adrian\Pictures\smartphone-icon.png" alt=""></div></a>
+        </div>
+        </div>
+      <small class="siteLocation">
+        © loremB.C - 2022, lorem Ipsum App, Inc. dba CamerO
+      </small>
+    </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
